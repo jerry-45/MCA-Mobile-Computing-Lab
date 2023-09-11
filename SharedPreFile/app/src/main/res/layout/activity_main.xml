@@ -7,26 +7,28 @@
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/btnSave"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/etEmail"
-        android:text="SAVE"
-        android:onClick="save" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="0dp"
+        android:onClick="save"
+        android:text="SAVE" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/btnRetr"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/btnSave"
-        android:text="GET"
-        android:onClick="retrive" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="0dp"
+        android:onClick="retrive"
+        android:text="GET" />
 
     <Button
         android:layout_width="wrap_content"
