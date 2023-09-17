@@ -30,5 +30,49 @@ public class MainActivity extends AppCompatActivity {
         sub = findViewById(R.id.btn2);
         mul = findViewById(R.id.btn3);
         div = findViewById(R.id.btn4);
+
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int n1 = Integer.parseInt(String.valueOf(num1.getText()));
+                int n2 = Integer.parseInt(String.valueOf(num2.getText()));
+                int result = n1 + n2;
+
+                Toast.makeText(MainActivity.this, "Result: " + result, Toast.LENGTH_LONG).show();
+            }
+        });
+
+        sub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int n1 = Integer.parseInt(String.valueOf(num1.getText()));
+                int n2 = Integer.parseInt(String.valueOf(num2.getText()));
+                int result = n1 - n2;
+
+                Toast.makeText(MainActivity.this, "Result: " + result, Toast.LENGTH_LONG).show();
+            }
+        });
+
+        mul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int n1 = Integer.parseInt(String.valueOf(num1.getText()));
+                int n2 = Integer.parseInt(String.valueOf(num2.getText()));
+                int result = n1 * n2;
+
+                Toast.makeText(MainActivity.this, "Result: " + result, Toast.LENGTH_LONG).show();
+            }
+        });
+
+        div.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int n1 = Integer.parseInt(String.valueOf(num1.getText()));
+                int n2 = Integer.parseInt(String.valueOf(num2.getText()));
+                int result = n1 / n2;
+
+                Toast.makeText(MainActivity.this, "Result: " + result, Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }

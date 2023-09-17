@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/# Repos/MCA-Mobile-Computing-Lab/RegisterLogin/app/src/main/res/drawable/btn_bg.xml" value="0.1945" />
+        <entry key="..\:/# Repos/MCA-Mobile-Computing-Lab/RegisterLogin/app/src/main/res/drawable/input_bg.xml" value="0.1135" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/RegisterLogin/app/src/main/res/drawable/btn_bg.xml" value="0.123" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/RegisterLogin/app/src/main/res/drawable/input_bg.xml" value="0.123" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/RegisterLogin/app/src/main/res/layout/activity_login.xml" value="0.22" />
