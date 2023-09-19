@@ -4,7 +4,7 @@
 
 | Practical No. | Practical Name | Project Folder | Completed |
 |:-------------:|----------------|----------------|:---------:|
-| Practical 01 | WAP on android for Activity Overloading |  |  |
+| Practical 01 | WAP on android for Activity Overloading | Activity_Overloading | ✅ |
 | Practical 02 | WAP on android on Life Cycle Demo |  |  |
 | Practical 03 | WAP on android for toggle and progress bar |  |  |
 | Practical 04 | WAP on android for simple Calculator |  |  |
