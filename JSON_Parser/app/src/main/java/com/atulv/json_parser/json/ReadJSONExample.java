@@ -1,4 +1,4 @@
-package com.atulv.json_parser;
+package com.atulv.json_parser.json;
 
 import android.content.Context;
 
@@ -6,6 +6,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.atulv.json_parser.R;
 import com.atulv.json_parser.beans.Address;
 import com.atulv.json_parser.beans.Company;
 import java.io.BufferedReader;

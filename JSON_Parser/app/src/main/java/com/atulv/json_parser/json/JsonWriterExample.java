@@ -1,4 +1,4 @@
-package com.atulv.json_parser;
+package com.atulv.json_parser.json;
 
 import android.util.JsonWriter;
 
